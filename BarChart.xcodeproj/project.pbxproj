@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6A7FBA8B1AB31EB3007C5C4D /* PanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A7FBA8A1AB31EB3007C5C4D /* PanViewController.swift */; };
 		6A8BA57C1AB0A9D800160E1D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A8BA57B1AB0A9D800160E1D /* AppDelegate.swift */; };
 		6A8BA57E1AB0A9D800160E1D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A8BA57D1AB0A9D800160E1D /* ViewController.swift */; };
 		6A8BA5811AB0A9D800160E1D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A8BA57F1AB0A9D800160E1D /* Main.storyboard */; };
@@ -26,6 +27,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6A7FBA8A1AB31EB3007C5C4D /* PanViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PanViewController.swift; sourceTree = "<group>"; };
 		6A8BA5761AB0A9D800160E1D /* BarChart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BarChart.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A8BA57A1AB0A9D800160E1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6A8BA57B1AB0A9D800160E1D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -80,6 +82,7 @@
 				6A8BA57B1AB0A9D800160E1D /* AppDelegate.swift */,
 				6A8BA57D1AB0A9D800160E1D /* ViewController.swift */,
 				6A8BA57F1AB0A9D800160E1D /* Main.storyboard */,
+				6A7FBA8A1AB31EB3007C5C4D /* PanViewController.swift */,
 				6A8BA5821AB0A9D800160E1D /* Images.xcassets */,
 				6A8BA5841AB0A9D800160E1D /* LaunchScreen.xib */,
 				6A8BA5791AB0A9D800160E1D /* Supporting Files */,
@@ -161,6 +164,7 @@
 				TargetAttributes = {
 					6A8BA5751AB0A9D800160E1D = {
 						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = H4Z8UK87N8;
 					};
 					6A8BA58A1AB0A9D800160E1D = {
 						CreatedOnToolsVersion = 6.1.1;
@@ -213,6 +217,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6A8BA57E1AB0A9D800160E1D /* ViewController.swift in Sources */,
+				6A7FBA8B1AB31EB3007C5C4D /* PanViewController.swift in Sources */,
 				6A8BA57C1AB0A9D800160E1D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -336,9 +341,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = BarChart/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -346,9 +354,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = BarChart/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -405,6 +416,7 @@
 				6A8BA5971AB0A9D800160E1D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6A8BA5981AB0A9D800160E1D /* Build configuration list for PBXNativeTarget "BarChartTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +425,7 @@
 				6A8BA59A1AB0A9D800160E1D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
